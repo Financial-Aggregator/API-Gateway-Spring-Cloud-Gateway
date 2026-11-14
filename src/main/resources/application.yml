@@ -6,7 +6,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          secret-key: ${JWT_SECRET_BASE64:bXlTdXBlclNlY3JldEtleUZvckJhbmtpbmdBcHBsaWNhdGlvbjEyMzQ1Njc4OTA=}
+          secret-key: ${JWT_SECRET}
 
   cloud:
     gateway:
